@@ -17,11 +17,31 @@
   #title h1{
     font-family: "Calistoga", serif;
   }
+  #navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbutton{
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+    width: auto;
+    flex: 1 1 0px;
+  }
 </style>
 </head>
 <body>
 <div id="title">
   <h1>Mahjongology<span style="color: grey">.net</span></h1>
+</div>
+<div id="navbar">
+  <div class="navbutton">Mahjong History</div>
+  <div class="navbutton">Styles</div>
+  <div class="navbutton">Rulesets</div>
+  <div class="navbutton">Devlog</div>
+  <div class="navbutton">About Me</div>
 </div>
 <div>
   <p>Hello, World!</p>
